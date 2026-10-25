@@ -1,8 +1,8 @@
-# 🏥 Machine Learning-Assisted Compiler for Healthcare Application Code Analysis
+# Machine Learning-Assisted Compiler for Healthcare Application Code Analysis
 
 A Compiler Design Lab project that combines traditional compiler techniques with Machine Learning to analyze healthcare-related application code and identify potential programming errors and risks.
 
-## 📌 Project Overview
+##  Project Overview
 
 Healthcare applications require reliable code because programming errors can affect the correctness of medical software. This project explores how compiler design techniques and machine learning can work together to analyze source code and flag potential issues.
 
@@ -10,7 +10,7 @@ The system performs lexical, syntax, and semantic analysis, followed by healthca
 
 The project is implemented in **Python using Jupyter Notebook**, without a separate graphical user interface.
 
-## 🎯 Objectives
+##  Objectives
 
 - Implement the fundamental phases of a compiler.
 - Identify lexical, syntax, and semantic errors in source code.
@@ -19,7 +19,7 @@ The project is implemented in **Python using Jupyter Notebook**, without a separ
 - Evaluate the implementation using test cases and performance metrics.
 - Explore the application of compiler design in healthcare software analysis.
 
-## ⚙️ Key Features
+##  Key Features
 
 - **Lexical Analysis:** Identifies tokens such as keywords, identifiers, operators, and symbols.
 - **Syntax Analysis:** Checks whether source code follows the supported grammar.
@@ -29,7 +29,7 @@ The project is implemented in **Python using Jupyter Notebook**, without a separ
 - **Testing and Evaluation:** Includes functional tests, prediction results, evaluation metrics, and visualizations.
 - **Result Export:** Saves selected analysis and evaluation results as CSV and JSON files.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - Jupyter Notebook
@@ -39,7 +39,7 @@ The project is implemented in **Python using Jupyter Notebook**, without a separ
 - Matplotlib
 - Seaborn
 
-## 🧠 System Workflow
+##  System Workflow
 
 1. Load and preprocess source code.
 2. Perform lexical analysis.
@@ -50,7 +50,7 @@ The project is implemented in **Python using Jupyter Notebook**, without a separ
 7. Display analysis results and evaluation metrics.
 8. Export results for further examination.
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 Healthcare-ML-Assisted-Compiler/
@@ -68,7 +68,7 @@ Healthcare-ML-Assisted-Compiler/
 
 *Note: The results folder contains generated outputs. Include it in the repository if you want to publish your experimental results.*
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 
@@ -91,20 +91,20 @@ jupyter notebook Healthcare_ML_Assisted_Compiler.ipynb
 
 Open the notebook and execute the cells sequentially to run the compiler analysis, healthcare rule checks, machine learning predictions, and evaluation.
 
-## 📊 Testing and Evaluation
+##  Testing and Evaluation
 
 The project includes functional tests covering valid declarations, invalid characters, missing semicolons, type mismatches, undeclared variables, duplicate declarations, and healthcare-related warnings.
 
 The healthcare risk classifier was evaluated using a small synthetic dataset, achieving **80% accuracy on a 10-example held-out test set** in the recorded experiment. This result is preliminary and should not be interpreted as evidence of real-world healthcare safety or generalization.
 
-## ⚠️ Limitations
+##  Limitations
 
 - The parser supports a limited, C-like subset of source code rather than the complete C programming language.
 - The healthcare rules cover selected patterns and cannot identify every possible risk.
 - The machine learning model uses synthetic examples and requires evaluation on representative real-world data.
 - This project is an educational prototype, not a clinically validated tool. Its output must not be used to determine patient treatment or medication dosage.
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - Expand the supported programming language grammar.
 - Add more comprehensive semantic checks and healthcare-specific rules.
@@ -112,7 +112,7 @@ The healthcare risk classifier was evaluated using a small synthetic dataset, ac
 - Improve error reporting and explainability.
 - Integrate static analysis tools for more extensive code verification.
 
-## 👩‍💻 Authors
+##  Authors
 
 - **S. Mahitha Sree** — 24BCB7023
 - **Yarlagadda Rahul** — 24BCB7087
@@ -121,7 +121,7 @@ The healthcare risk classifier was evaluated using a small synthetic dataset, ac
 **Program:** B.Tech — Computer Science and Business Systems  
 **Project Type:** Compiler Design Lab
 
-## 📜 Disclaimer
+##  Disclaimer
 
 This project is developed for academic and educational purposes only. It does not replace professional software verification, clinical validation, or medical expertise.
 
