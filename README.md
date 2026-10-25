@@ -127,4 +127,3 @@ This project is developed for academic and educational purposes only. It does no
 
 ---
 
-⭐ If you find this project useful for learning compiler design and machine learning integration, consider starring the repository.
