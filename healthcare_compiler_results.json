@@ -1,0 +1,596 @@
+{
+  "valid_patient.c": {
+    "status": "PASSED",
+    "tokens": [
+      {
+        "kind": "KEYWORD",
+        "value": "int",
+        "line": 1,
+        "column": 1
+      },
+      {
+        "kind": "IDENTIFIER",
+        "value": "patient_age",
+        "line": 1,
+        "column": 5
+      },
+      {
+        "kind": "OP",
+        "value": "=",
+        "line": 1,
+        "column": 17
+      },
+      {
+        "kind": "INTEGER",
+        "value": "42",
+        "line": 1,
+        "column": 19
+      },
+      {
+        "kind": "PUNCT",
+        "value": ";",
+        "line": 1,
+        "column": 21
+      },
+      {
+        "kind": "KEYWORD",
+        "value": "float",
+        "line": 2,
+        "column": 1
+      },
+      {
+        "kind": "IDENTIFIER",
+        "value": "body_weight",
+        "line": 2,
+        "column": 7
+      },
+      {
+        "kind": "OP",
+        "value": "=",
+        "line": 2,
+        "column": 19
+      },
+      {
+        "kind": "FLOAT",
+        "value": "68.5",
+        "line": 2,
+        "column": 21
+      },
+      {
+        "kind": "PUNCT",
+        "value": ";",
+        "line": 2,
+        "column": 25
+      },
+      {
+        "kind": "KEYWORD",
+        "value": "bool",
+        "line": 3,
+        "column": 1
+      },
+      {
+        "kind": "IDENTIFIER",
+        "value": "input_valid",
+        "line": 3,
+        "column": 6
+      },
+      {
+        "kind": "OP",
+        "value": "=",
+        "line": 3,
+        "column": 18
+      },
+      {
+        "kind": "KEYWORD",
+        "value": "true",
+        "line": 3,
+        "column": 20
+      },
+      {
+        "kind": "PUNCT",
+        "value": ";",
+        "line": 3,
+        "column": 24
+      },
+      {
+        "kind": "KEYWORD",
+        "value": "if",
+        "line": 4,
+        "column": 1
+      },
+      {
+        "kind": "PUNCT",
+        "value": "(",
+        "line": 4,
+        "column": 4
+      },
+      {
+        "kind": "IDENTIFIER",
+        "value": "input_valid",
+        "line": 4,
+        "column": 5
+      },
+      {
+        "kind": "OP",
+        "value": "==",
+        "line": 4,
+        "column": 17
+      },
+      {
+        "kind": "KEYWORD",
+        "value": "true",
+        "line": 4,
+        "column": 20
+      },
+      {
+        "kind": "PUNCT",
+        "value": ")",
+        "line": 4,
+        "column": 24
+      },
+      {
+        "kind": "PUNCT",
+        "value": "{",
+        "line": 4,
+        "column": 26
+      },
+      {
+        "kind": "KEYWORD",
+        "value": "float",
+        "line": 4,
+        "column": 28
+      },
+      {
+        "kind": "IDENTIFIER",
+        "value": "measured_value",
+        "line": 4,
+        "column": 34
+      },
+      {
+        "kind": "OP",
+        "value": "=",
+        "line": 4,
+        "column": 49
+      },
+      {
+        "kind": "IDENTIFIER",
+        "value": "body_weight",
+        "line": 4,
+        "column": 51
+      },
+      {
+        "kind": "OP",
+        "value": "+",
+        "line": 4,
+        "column": 63
+      },
+      {
+        "kind": "FLOAT",
+        "value": "1.0",
+        "line": 4,
+        "column": 65
+      },
+      {
+        "kind": "PUNCT",
+        "value": ";",
+        "line": 4,
+        "column": 68
+      },
+      {
+        "kind": "KEYWORD",
+        "value": "return",
+        "line": 4,
+        "column": 70
+      },
+      {
+        "kind": "IDENTIFIER",
+        "value": "patient_age",
+        "line": 4,
+        "column": 77
+      },
+      {
+        "kind": "PUNCT",
+        "value": ";",
+        "line": 4,
+        "column": 88
+      },
+      {
+        "kind": "PUNCT",
+        "value": "}",
+        "line": 4,
+        "column": 90
+      }
+    ],
+    "symbols": {
+      "patient_age": "int",
+      "body_weight": "float",
+      "input_valid": "bool",
+      "measured_value": "float"
+    },
+    "findings": [],
+    "ml_classifications": []
+  },
+  "potential_risk.c": {
+    "status": "REVIEW_REQUIRED",
+    "tokens": [
+      {
+        "kind": "KEYWORD",
+        "value": "float",
+        "line": 1,
+        "column": 1
+      },
+      {
+        "kind": "IDENTIFIER",
+        "value": "weight",
+        "line": 1,
+        "column": 7
+      },
+      {
+        "kind": "OP",
+        "value": "=",
+        "line": 1,
+        "column": 14
+      },
+      {
+        "kind": "FLOAT",
+        "value": "68.5",
+        "line": 1,
+        "column": 16
+      },
+      {
+        "kind": "PUNCT",
+        "value": ";",
+        "line": 1,
+        "column": 20
+      },
+      {
+        "kind": "KEYWORD",
+        "value": "float",
+        "line": 2,
+        "column": 1
+      },
+      {
+        "kind": "IDENTIFIER",
+        "value": "dose",
+        "line": 2,
+        "column": 7
+      },
+      {
+        "kind": "OP",
+        "value": "=",
+        "line": 2,
+        "column": 12
+      },
+      {
+        "kind": "IDENTIFIER",
+        "value": "weight",
+        "line": 2,
+        "column": 14
+      },
+      {
+        "kind": "OP",
+        "value": "*",
+        "line": 2,
+        "column": 21
+      },
+      {
+        "kind": "FLOAT",
+        "value": "10.0",
+        "line": 2,
+        "column": 23
+      },
+      {
+        "kind": "PUNCT",
+        "value": ";",
+        "line": 2,
+        "column": 27
+      },
+      {
+        "kind": "KEYWORD",
+        "value": "return",
+        "line": 3,
+        "column": 1
+      },
+      {
+        "kind": "IDENTIFIER",
+        "value": "dose",
+        "line": 3,
+        "column": 8
+      },
+      {
+        "kind": "PUNCT",
+        "value": ";",
+        "line": 3,
+        "column": 12
+      }
+    ],
+    "symbols": {
+      "weight": "float",
+      "dose": "float"
+    },
+    "findings": [
+      {
+        "phase": "healthcare_rule",
+        "code": "POTENTIAL_MISSING_VALIDATION",
+        "message": "Healthcare-related identifiers appear without an obvious validation/check construct.",
+        "line": 1
+      },
+      {
+        "phase": "healthcare_rule",
+        "code": "POTENTIAL_DOSE_GUARD_MISSING",
+        "message": "Dose/dosage calculation found without an obvious guard.",
+        "line": 1
+      }
+    ],
+    "ml_classifications": [
+      {
+        "code": "POTENTIAL_MISSING_VALIDATION",
+        "phase": "healthcare_rule",
+        "predicted_category": "no_issue",
+        "message": "Healthcare-related identifiers appear without an obvious validation/check construct."
+      },
+      {
+        "code": "POTENTIAL_DOSE_GUARD_MISSING",
+        "phase": "healthcare_rule",
+        "predicted_category": "potential_safety_risk",
+        "message": "Dose/dosage calculation found without an obvious guard."
+      }
+    ]
+  },
+  "syntax_error.c": {
+    "status": "REVIEW_REQUIRED",
+    "tokens": [
+      {
+        "kind": "KEYWORD",
+        "value": "int",
+        "line": 1,
+        "column": 1
+      },
+      {
+        "kind": "IDENTIFIER",
+        "value": "patient_age",
+        "line": 1,
+        "column": 5
+      },
+      {
+        "kind": "OP",
+        "value": "=",
+        "line": 1,
+        "column": 17
+      },
+      {
+        "kind": "INTEGER",
+        "value": "42",
+        "line": 1,
+        "column": 19
+      },
+      {
+        "kind": "KEYWORD",
+        "value": "float",
+        "line": 2,
+        "column": 1
+      },
+      {
+        "kind": "IDENTIFIER",
+        "value": "dose",
+        "line": 2,
+        "column": 7
+      },
+      {
+        "kind": "OP",
+        "value": "=",
+        "line": 2,
+        "column": 12
+      },
+      {
+        "kind": "IDENTIFIER",
+        "value": "patient_age",
+        "line": 2,
+        "column": 14
+      },
+      {
+        "kind": "OP",
+        "value": "*",
+        "line": 2,
+        "column": 26
+      },
+      {
+        "kind": "FLOAT",
+        "value": "10.0",
+        "line": 2,
+        "column": 28
+      },
+      {
+        "kind": "PUNCT",
+        "value": ";",
+        "line": 2,
+        "column": 32
+      },
+      {
+        "kind": "KEYWORD",
+        "value": "return",
+        "line": 3,
+        "column": 1
+      },
+      {
+        "kind": "IDENTIFIER",
+        "value": "dose",
+        "line": 3,
+        "column": 8
+      },
+      {
+        "kind": "PUNCT",
+        "value": ";",
+        "line": 3,
+        "column": 12
+      }
+    ],
+    "symbols": {},
+    "findings": [
+      {
+        "phase": "syntax",
+        "code": "SYNTAX_ERROR",
+        "message": "Expected ';', found 'float' at 2:1",
+        "line": 1
+      },
+      {
+        "phase": "healthcare_rule",
+        "code": "POTENTIAL_MISSING_VALIDATION",
+        "message": "Healthcare-related identifiers appear without an obvious validation/check construct.",
+        "line": 1
+      },
+      {
+        "phase": "healthcare_rule",
+        "code": "POTENTIAL_DOSE_GUARD_MISSING",
+        "message": "Dose/dosage calculation found without an obvious guard.",
+        "line": 1
+      }
+    ],
+    "ml_classifications": [
+      {
+        "code": "SYNTAX_ERROR",
+        "phase": "syntax",
+        "predicted_category": "syntax_error",
+        "message": "Expected ';', found 'float' at 2:1"
+      },
+      {
+        "code": "POTENTIAL_MISSING_VALIDATION",
+        "phase": "healthcare_rule",
+        "predicted_category": "no_issue",
+        "message": "Healthcare-related identifiers appear without an obvious validation/check construct."
+      },
+      {
+        "code": "POTENTIAL_DOSE_GUARD_MISSING",
+        "phase": "healthcare_rule",
+        "predicted_category": "potential_safety_risk",
+        "message": "Dose/dosage calculation found without an obvious guard."
+      }
+    ]
+  },
+  "semantic_error.c": {
+    "status": "REVIEW_REQUIRED",
+    "tokens": [
+      {
+        "kind": "KEYWORD",
+        "value": "int",
+        "line": 1,
+        "column": 1
+      },
+      {
+        "kind": "IDENTIFIER",
+        "value": "patient_age",
+        "line": 1,
+        "column": 5
+      },
+      {
+        "kind": "OP",
+        "value": "=",
+        "line": 1,
+        "column": 17
+      },
+      {
+        "kind": "STRING",
+        "value": "forty",
+        "line": 1,
+        "column": 19
+      },
+      {
+        "kind": "PUNCT",
+        "value": ";",
+        "line": 1,
+        "column": 26
+      },
+      {
+        "kind": "IDENTIFIER",
+        "value": "dose",
+        "line": 2,
+        "column": 1
+      },
+      {
+        "kind": "OP",
+        "value": "=",
+        "line": 2,
+        "column": 6
+      },
+      {
+        "kind": "IDENTIFIER",
+        "value": "patient_age",
+        "line": 2,
+        "column": 8
+      },
+      {
+        "kind": "OP",
+        "value": "*",
+        "line": 2,
+        "column": 20
+      },
+      {
+        "kind": "INTEGER",
+        "value": "2",
+        "line": 2,
+        "column": 22
+      },
+      {
+        "kind": "PUNCT",
+        "value": ";",
+        "line": 2,
+        "column": 23
+      }
+    ],
+    "symbols": {
+      "patient_age": "int"
+    },
+    "findings": [
+      {
+        "phase": "semantic",
+        "code": "TYPE_MISMATCH",
+        "message": "Cannot initialize int with string.",
+        "line": 1
+      },
+      {
+        "phase": "semantic",
+        "code": "UNDECLARED_IDENTIFIER",
+        "message": "Assignment to undeclared 'dose'.",
+        "line": 2
+      },
+      {
+        "phase": "healthcare_rule",
+        "code": "POTENTIAL_MISSING_VALIDATION",
+        "message": "Healthcare-related identifiers appear without an obvious validation/check construct.",
+        "line": 1
+      },
+      {
+        "phase": "healthcare_rule",
+        "code": "POTENTIAL_DOSE_GUARD_MISSING",
+        "message": "Dose/dosage calculation found without an obvious guard.",
+        "line": 1
+      }
+    ],
+    "ml_classifications": [
+      {
+        "code": "TYPE_MISMATCH",
+        "phase": "semantic",
+        "predicted_category": "semantic_error",
+        "message": "Cannot initialize int with string."
+      },
+      {
+        "code": "UNDECLARED_IDENTIFIER",
+        "phase": "semantic",
+        "predicted_category": "semantic_error",
+        "message": "Assignment to undeclared 'dose'."
+      },
+      {
+        "code": "POTENTIAL_MISSING_VALIDATION",
+        "phase": "healthcare_rule",
+        "predicted_category": "no_issue",
+        "message": "Healthcare-related identifiers appear without an obvious validation/check construct."
+      },
+      {
+        "code": "POTENTIAL_DOSE_GUARD_MISSING",
+        "phase": "healthcare_rule",
+        "predicted_category": "potential_safety_risk",
+        "message": "Dose/dosage calculation found without an obvious guard."
+      }
+    ]
+  }
+}

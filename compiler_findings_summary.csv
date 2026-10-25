@@ -1,0 +1,10 @@
+sample,phase,code
+potential_risk.c,healthcare_rule,POTENTIAL_MISSING_VALIDATION
+potential_risk.c,healthcare_rule,POTENTIAL_DOSE_GUARD_MISSING
+syntax_error.c,syntax,SYNTAX_ERROR
+syntax_error.c,healthcare_rule,POTENTIAL_MISSING_VALIDATION
+syntax_error.c,healthcare_rule,POTENTIAL_DOSE_GUARD_MISSING
+semantic_error.c,semantic,TYPE_MISMATCH
+semantic_error.c,semantic,UNDECLARED_IDENTIFIER
+semantic_error.c,healthcare_rule,POTENTIAL_MISSING_VALIDATION
+semantic_error.c,healthcare_rule,POTENTIAL_DOSE_GUARD_MISSING

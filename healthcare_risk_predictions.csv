@@ -1,0 +1,11 @@
+description,expected,predicted
+lab result is checked against its permitted range,no_identified_risk,no_identified_risk
+patient measurements are checked for invalid values,no_identified_risk,potential_risk
+medical value has no permitted range check,potential_risk,potential_risk
+medication input is validated before processing,no_identified_risk,no_identified_risk
+patient result is not checked against limits,potential_risk,no_identified_risk
+clinical measurement is validated before use,no_identified_risk,no_identified_risk
+dose value is calculated without checking limits,potential_risk,potential_risk
+patient measurement has no range validation,potential_risk,potential_risk
+medical input is accepted without checking limits,potential_risk,potential_risk
+patient temperature passes the input validation check,no_identified_risk,no_identified_risk

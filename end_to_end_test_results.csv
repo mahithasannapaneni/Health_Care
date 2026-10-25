@@ -1,0 +1,9 @@
+Test Case,Expected Phase,Detected Phases,Result
+Valid declaration,No findings,none,PASS
+Invalid character,lexical,lexical,PASS
+Missing semicolon,syntax,syntax,PASS
+Type mismatch,semantic,semantic,PASS
+Undeclared assignment,semantic,"healthcare_rule, semantic",PASS
+Duplicate declaration,semantic,semantic,PASS
+Healthcare validation warning,healthcare_rule,healthcare_rule,PASS
+Potential dosage guard warning,healthcare_rule,healthcare_rule,PASS

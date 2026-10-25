@@ -1,0 +1,16 @@
+Description,Expected Category,Predicted Category,Correct
+lexer encountered an illegal character,lexical_error,lexical_error,True
+source contains an unsupported symbol,lexical_error,syntax_error,False
+string literal was not terminated,lexical_error,syntax_error,False
+conditional statement has a missing closing parenthesis,syntax_error,syntax_error,True
+statement is missing its required semicolon,syntax_error,syntax_error,True
+block structure is incomplete,syntax_error,syntax_error,True
+variable referenced before being defined,semantic_error,semantic_error,True
+assignment uses incompatible data types,semantic_error,semantic_error,True
+same variable name is declared twice,semantic_error,semantic_error,True
+patient input lacks an acceptable range check,potential_safety_risk,potential_safety_risk,True
+medical measurement is accepted without validation,potential_safety_risk,potential_safety_risk,True
+medication-related value has no boundary check,potential_safety_risk,potential_safety_risk,True
+all implemented validation checks completed without findings,no_issue,potential_safety_risk,False
+program variables are declared and assignments are compatible,no_issue,syntax_error,False
+no problems were identified by the configured checks,no_issue,syntax_error,False

@@ -1,0 +1,5 @@
+test,result
+lexical error,PASS
+syntax error,PASS
+undeclared variable,PASS
+healthcare rule,PASS

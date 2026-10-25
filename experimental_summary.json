@@ -1,0 +1,18 @@
+{
+    "project_title": "Machine Learning Assisted Compiler for Healthcare Application Code Analysis",
+    "end_to_end_tests": {
+        "passed": 8,
+        "total": 8
+    },
+    "baseline_ml_evaluation": {
+        "correct": 10,
+        "total": 15,
+        "accuracy": 0.6666666666666666
+    },
+    "healthcare_risk_model": {
+        "training_examples": 30,
+        "test_examples": 10,
+        "accuracy": 0.8
+    },
+    "dataset_note": "All ML datasets are synthetic and intended for academic demonstration only."
+}
